@@ -9,8 +9,8 @@ Each badge celebrates contributions, collaboration, and creativity across the op
 
 ## 🎨 Design Guidelines
 
-### 🌈 Color Palette (LCP color system)
-Generic badges should follow the **openSUSE LCP color set** to ensure a consistent visual identity.
+### 🌈 Color Palette
+Generic badges should follow the **hellcp's (Jay Michalska) amazing color parellte** to ensure a consistent visual identity.
 Platform-specific or hardware-related badges (e.g. POWER, System-Z, ARM) may use distinctive colors for quick recognition.
 
 ```
