@@ -1,5 +1,7 @@
 # 🏅 openSUSE Kudos Badges
 
+<img width="737" height="220" alt="image" src="https://github.com/user-attachments/assets/e46c4aff-b900-49c6-b0ff-7bf264f66a41" />
+
 Badges for the **openSUSE Kudos** recognition system.
 Each badge celebrates contributions, collaboration, and creativity across the openSUSE community.
 
