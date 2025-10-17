@@ -46,11 +46,10 @@ maple-maroon:  #301a14
 
 ### ✍️ Font Guidelines
 
-Badges should use **Pixel Operator** (or **Pixel Operator Bold**) for all text.
-This font maintains the consistent pixel-art aesthetic used across openSUSE Kudos visuals and the LCP design system.
+Badges should use **Pixel Operator** (or **Pixel Operator Bold**) for all text. The font itself is not listed in Google fonts api so it has to be selfhosted.
+This font maintains the consistent pixel-art aesthetic used across openSUSE Kudos visuals.
 
-- **Primary font:** [Pixel Operator](https://www.dafont.com/pixel-operator.font)
-- **License:** [SIL Open Font License 1.1](https://scripts.sil.org/OFL)
+- **Primary font:** [Pixel Operator](https://www.dafont.com/pixel-operator.font) licensed under [SIL Open Font License 1.1](https://scripts.sil.org/OFL)
 - **Recommended sizes:**
   - Titles: 24–32 px
   - Subtext / labels: 16–20 px
@@ -75,19 +74,14 @@ Detailed criteria for existing badges are maintained in the [openSUSE Kudos repo
 
 ## 🧩 Usage of badges
 
-This repository is intended to be used as a **submodule** of a [openSUSE Kudos web app](https://github.com/openSUSE/kudos).
-From where we want to render a nice "printable" achievements as well peer-to-peer kudos suitable for social networks.
+## 🧩 Usage of Badges
 
-```bash
-git submodule add https://github.com/openSUSE/kudos-badges.git assets/badges
-```
+This repository is intended to be used as a [**submodule**](https://github.com/openSUSE/kudos/tree/main/frontend/public) of the [openSUSE Kudos webapp](https://github.com/openSUSE/kudos).  
+It provides assets for rendering **printable achievements** and **peer-to-peer kudos** by the Kudos app designed for sharing on social networks.
 
-Then reference badges in your frontend:
-```html
-<img src="/assets/badges/community/mentor.png" alt="Mentor Badge" />
-```
+Please **do not use badges from this repository outside of the Kudos application or its official promotion**.  
+These badges are meant to recognize specific contributions, and using them elsewhere would diminish their intended value and meaning.
 
----
 
 ## 🪪 License
 
