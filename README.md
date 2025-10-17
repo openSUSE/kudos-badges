@@ -73,10 +73,10 @@ Detailed criteria for existing badges are maintained in the [openSUSE Kudos repo
 
 ---
 
-## 🧩 Usage in Projects
+## 🧩 Usage of badges
 
-This repository is intended to be used as a **submodule** for projects that display badges,
-such as the [openSUSE Kudos web app](https://github.com/openSUSE/kudos) or contributor dashboards.
+This repository is intended to be used as a **submodule** of a [openSUSE Kudos web app](https://github.com/openSUSE/kudos).
+From where we want to render a nice "printable" achievements as well peer-to-peer kudos suitable for social networks.
 
 ```bash
 git submodule add https://github.com/openSUSE/kudos-badges.git assets/badges
