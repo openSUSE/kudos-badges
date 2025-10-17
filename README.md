@@ -74,14 +74,11 @@ Detailed criteria for existing badges are maintained in the [openSUSE Kudos repo
 
 ## 🧩 Usage of badges
 
-## 🧩 Usage of Badges
-
 This repository is intended to be used as a [**submodule**](https://github.com/openSUSE/kudos/tree/main/frontend/public) of the [openSUSE Kudos webapp](https://github.com/openSUSE/kudos).  
 It provides assets for rendering **printable achievements** and **peer-to-peer kudos** by the Kudos app designed for sharing on social networks.
 
 Please **do not use badges from this repository outside of the Kudos application or its official promotion**.  
 These badges are meant to recognize specific contributions, and using them elsewhere would diminish their intended value and meaning.
-
 
 ## 🪪 License
 
