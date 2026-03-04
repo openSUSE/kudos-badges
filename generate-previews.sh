@@ -67,7 +67,7 @@ for size in "${SIZES[@]}"; do
       -define png:compression-level=6 \
       "$tmp"
 
-    optipng -o3 -quiet "$tmp" >/dev/null 2>&1 || true
+    optipng -o7 -quiet "$tmp" >/dev/null 2>&1 || true
 
     if [[ -f "$out" ]] && cmp -s "$tmp" "$out"; then
       rm -f "$tmp"
