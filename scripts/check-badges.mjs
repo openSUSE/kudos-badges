@@ -2,7 +2,7 @@
 // Copyright © 2025–present Lubos Kocman and openSUSE contributors
 // SPDX-License-Identifier: Apache-2.0
 //
-// Checks that the badge catalog is complete and consistent, so a merged badge
+// Checks that the badge definitions are complete and consistent, so a merged badge
 // shows up in Kudos exactly as intended:
 //
 //   - every badge image (top-level *.png) has metadata in meta/<slug>.json

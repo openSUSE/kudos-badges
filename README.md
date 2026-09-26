@@ -87,7 +87,7 @@ A badge is three things, all in this repository:
    }
    ```
    `link` is optional. Set `"retired": true` to stop showing a badge in the
-   catalog; people who earned it keep it. Don't delete a badge's meta file:
+   badge list; people who earned it keep it. Don't delete a badge's meta file:
    badges are never revoked, and the file keeps its name and art.
 3. **English strings** — an entry in `locales/en.json`:
    ```json
@@ -104,7 +104,7 @@ on every pull request. Every top-level `.png` must have metadata, so keep
 artwork that isn't a badge yet out of the top-level directory.
 
 Once merged, the `kudos-badges` package is rebuilt and installed, and Kudos
-picks the badge up on its own: it syncs this catalog into its database every
+picks the badge up on its own: it syncs these badges into its database every
 time it starts.
 
 ## 🧩 Usage of badges
