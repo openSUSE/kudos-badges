@@ -107,6 +107,26 @@
     "title": "Leap 16.1 Contributor",
     "description": "Recognition for submitting at least one pull request to Leap 16.1 or related appliance repositories on src.opensuse.org."
   },
+  "leap-162": {
+    "title": "Leap 16.2 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.2 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-163": {
+    "title": "Leap 16.3 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.3 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-164": {
+    "title": "Leap 16.4 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.4 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-165": {
+    "title": "Leap 16.5 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.5 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-166": {
+    "title": "Leap 16.6 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.6 or related appliance repositories on src.opensuse.org."
+  },
   "localization": {
     "title": "Localization guru",
     "description": "Recognition for openSUSE translations."
