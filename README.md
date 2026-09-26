@@ -68,13 +68,48 @@ This ensures fairness, consistency, and transparency across the recognition syst
 - Include measurable criteria where possible (e.g. “Merged 10 pull requests”, “Mentored 3 new contributors”).
 - When submitting a new badge, include its description and criteria in your PR.
 
-Detailed criteria for existing badges are maintained in the [openSUSE Kudos repository](https://github.com/openSUSE/kudos).
+The title and description shown in Kudos live next to the artwork in this repository — see [Adding a badge](#-adding-a-badge).
 
 ---
 
+## ➕ Adding a badge
+
+A badge is three things, all in this repository:
+
+1. **The artwork** — `<slug>.png` in the top-level directory, plus its previews
+   in `previews/200/` and `previews/800/` (run `./generate-previews.sh`).
+2. **Metadata** — `meta/<slug>.json`. The file name is the badge's slug, the
+   permanent ID that bots and Kudos use to grant it:
+   ```json
+   {
+     "image": "mentor.png",
+     "link": "https://en.opensuse.org/Mentoring"
+   }
+   ```
+   `link` is optional. Set `"retired": true` to stop showing a badge in the
+   badge list; people who earned it keep it. Don't delete a badge's meta file:
+   badges are never revoked, and the file keeps its name and art.
+3. **English strings** — an entry in `locales/en.json`:
+   ```json
+   "mentor": {
+     "title": "Mentor",
+     "description": "For mentoring 3 new contributors."
+   }
+   ```
+   Other `locales/<lang>.json` files are translations, managed via
+   [Weblate](https://l10n.opensuse.org/projects/kudos/) — don't edit them by hand.
+
+Check your work with `node scripts/check-badges.mjs`; CI runs the same check
+on every pull request. Every top-level `.png` must have metadata, so keep
+artwork that isn't a badge yet out of the top-level directory.
+
+Once merged, the `kudos-badges` package is rebuilt and installed, and Kudos
+picks the badge up on its own: it syncs these badges into its database every
+time it starts.
+
 ## 🧩 Usage of badges
 
-This repository is intended to be used as a [**submodule**](https://github.com/openSUSE/kudos/tree/main/frontend/public) of the [openSUSE Kudos webapp](https://github.com/openSUSE/kudos).  
+This repository is packaged as `kudos-badges` and installed next to the [openSUSE Kudos webapp](https://github.com/openSUSE/kudos).  
 It provides assets for rendering **printable achievements** and **peer-to-peer kudos** by the Kudos app designed for sharing on social networks.
 
 Please **do not use badges from this repository outside of the Kudos application or its official promotion**.  

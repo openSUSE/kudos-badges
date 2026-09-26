@@ -1,0 +1,234 @@
+{
+  "appliance": {
+    "title": "Specialized Images",
+    "description": "For contributions to Specialized openSUSE Images"
+  },
+  "arm": {
+    "title": "openSUSE Arm",
+    "description": "For contributions to openSUSE on Arm"
+  },
+  "artwork": {
+    "title": "True Artist",
+    "description": "True openSUSE Artist."
+  },
+  "booth": {
+    "title": "Booth staff",
+    "description": "openSUSE Booth staff member."
+  },
+  "documentation": {
+    "title": "Tech writer expert",
+    "description": "Recognition for work on openSUSE documentation."
+  },
+  "election-official": {
+    "title": "openSUSE Election Official",
+    "description": "Recognition for supporting openSUSE Board elections."
+  },
+  "gave-1-kudos": {
+    "title": "First Kudos Given",
+    "description": "Shared your first kudos."
+  },
+  "gave-10-kudos": {
+    "title": "10 Kudos Given",
+    "description": "Shared 10 kudos."
+  },
+  "gave-100-kudos": {
+    "title": "100 Kudos Given",
+    "description": "Shared 100 kudos."
+  },
+  "gave-1000-kudos": {
+    "title": "1000 Kudos Given",
+    "description": "Shared 1000 kudos."
+  },
+  "gnome": {
+    "title": "openSUSE GNOME Team",
+    "description": "For members of the openSUSE GNOME team."
+  },
+  "got-1-kudos": {
+    "title": "Got First Kudo",
+    "description": "Received your first kudos."
+  },
+  "got-10-kudos": {
+    "title": "Got 10 Kudos",
+    "description": "Received 10 kudos."
+  },
+  "got-100-kudos": {
+    "title": "Got 100 Kudos",
+    "description": "Received 100 kudos."
+  },
+  "got-1000-kudos": {
+    "title": "Got 1000 Kudos",
+    "description": "Received 1000 kudos."
+  },
+  "hero": {
+    "title": "openSUSE Hero",
+    "description": "openSUSE Hero"
+  },
+  "if2026": {
+    "title": "installfest.cz 2026",
+    "description": "For supporting Installfest.cz 2026."
+  },
+  "kalpa": {
+    "title": "Kalpa Contributor",
+    "description": "Recognition as a Kalpa contributor."
+  },
+  "leap-150": {
+    "title": "Leap 15.0 Contributor",
+    "description": "Recognition as a Leap 15.0 contributor."
+  },
+  "leap-151": {
+    "title": "Leap 15.1 Contributor",
+    "description": "Recognition as a Leap 15.1 contributor."
+  },
+  "leap-152": {
+    "title": "Leap 15.2 Contributor",
+    "description": "Recognition as a Leap 15.2 contributor."
+  },
+  "leap-153": {
+    "title": "Leap 15.3 Contributor",
+    "description": "Recognition as a Leap 15.3 contributor."
+  },
+  "leap-154": {
+    "title": "Leap 15.4 Contributor",
+    "description": "Recognition as a Leap 15.4 contributor."
+  },
+  "leap-155": {
+    "title": "Leap 15.5 Contributor",
+    "description": "Recognition as a Leap 15.5 contributor."
+  },
+  "leap-156": {
+    "title": "Leap 15.6 Contributor",
+    "description": "Recognition as a Leap 15.6 contributor."
+  },
+  "leap-160": {
+    "title": "Leap 16.0 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.0 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-161": {
+    "title": "Leap 16.1 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.1 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-162": {
+    "title": "Leap 16.2 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.2 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-163": {
+    "title": "Leap 16.3 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.3 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-164": {
+    "title": "Leap 16.4 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.4 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-165": {
+    "title": "Leap 16.5 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.5 or related appliance repositories on src.opensuse.org."
+  },
+  "leap-166": {
+    "title": "Leap 16.6 Contributor",
+    "description": "Recognition for submitting at least one pull request to Leap 16.6 or related appliance repositories on src.opensuse.org."
+  },
+  "localization": {
+    "title": "Localization guru",
+    "description": "Recognition for openSUSE translations."
+  },
+  "marketing": {
+    "title": "Marketing specialist",
+    "description": "Active Marketing specialist"
+  },
+  "member": {
+    "title": "openSUSE Member",
+    "description": "Only for official members"
+  },
+  "microos": {
+    "title": "MicroOS Contributor",
+    "description": "Recognition for MicroOS work"
+  },
+  "moderation": {
+    "title": "Moderator",
+    "description": "Recognition for moderation on forums and social media."
+  },
+  "nuked": {
+    "title": "Nuked Production",
+    "description": "Nobody really wants this badge, but it's cool."
+  },
+  "opensuse-board": {
+    "title": "openSUSE Board Member",
+    "description": "Recognition for serving on the openSUSE Board."
+  },
+  "osc2026": {
+    "title": "openSUSE Conference 2026",
+    "description": "For attending openSUSE Conference 2026."
+  },
+  "packager": {
+    "title": "openSUSE Packager",
+    "description": "openSUSE Packager"
+  },
+  "power": {
+    "title": "openSUSE POWER",
+    "description": "For contributions to openSUSE on POWER"
+  },
+  "quality": {
+    "title": "Quality Assurance",
+    "description": "Recognition for QA Work."
+  },
+  "release": {
+    "title": "Release team",
+    "description": "Release team member"
+  },
+  "riscv": {
+    "title": "RISC-V",
+    "description": "For contributions to openSUSE on RISC-V"
+  },
+  "slowroll": {
+    "title": "Slowroll Contributor",
+    "description": "Recognition as a Slowroll contributor."
+  },
+  "social": {
+    "title": "Influencer",
+    "description": "Social Media Influencer."
+  },
+  "systemz": {
+    "title": "openSUSE SYSTEM-Z",
+    "description": "For contributions to openSUSE on SYSTEM-Z"
+  },
+  "tumbleweed-1": {
+    "title": "First Tumbleweed Contribution",
+    "description": "For submitting 1 Submit Request to openSUSE:Factory."
+  },
+  "tumbleweed-10": {
+    "title": "10 Tumbleweed Contributions",
+    "description": "For submitting 10 Submit Requests to openSUSE:Factory."
+  },
+  "tumbleweed-100": {
+    "title": "100 Tumbleweed Contributions",
+    "description": "For submitting 100 Submit Requests to openSUSE:Factory."
+  },
+  "tumbleweed-1000": {
+    "title": "1000 Tumbleweed Contributions",
+    "description": "For submitting 1000 Submit Requests to openSUSE:Factory."
+  },
+  "webdev": {
+    "title": "openSUSE Web developer",
+    "description": "Recognition for developing openSUSE Webservices."
+  },
+  "wiki-1": {
+    "title": "Wiki Contributor",
+    "description": "Recognition for the first day/page documentation contribution on en.opensuse.org wiki."
+  },
+  "wiki-10": {
+    "title": "Wiki Bronze",
+    "description": "Recognition for 10 day/page documentation contributions on en.opensuse.org wiki."
+  },
+  "wiki-100": {
+    "title": "Wiki Silver",
+    "description": "Recognition for 100 day/page documentation contributions on en.opensuse.org wiki."
+  },
+  "wiki-1000": {
+    "title": "Wiki Gold",
+    "description": "Recognition for 1000 day/page documentation contributions on en.opensuse.org wiki."
+  },
+  "wiki-100000": {
+    "title": "Wiki Legend",
+    "description": "Recognition for 100000 day/page documentation contributions on en.opensuse.org wiki."
+  }
+}

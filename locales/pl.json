@@ -1,0 +1,186 @@
+{
+  "appliance": {
+    "title": "Obrazy specjalizowane",
+    "description": "Za wkład w specjalizowane obrazy openSUSE."
+  },
+  "arm": {
+    "title": "openSUSE Arm",
+    "description": "Za wkład w openSUSE na platformie Arm"
+  },
+  "artwork": {
+    "title": "Prawdziwy artysta",
+    "description": "Prawdziwy artysta openSUSE."
+  },
+  "booth": {
+    "title": "Obsługa stoiska",
+    "description": "Członek zespołu stoiska openSUSE."
+  },
+  "documentation": {
+    "title": "Ekspert dokumentacji",
+    "description": "Uznanie za pracę nad dokumentacją openSUSE."
+  },
+  "gave-1-kudos": {
+    "title": "Pierwsze przyznane Kudos",
+    "description": "Wysłałeś swoje pierwsze Kudos."
+  },
+  "gave-10-kudos": {
+    "title": "10 przyznanych Kudos",
+    "description": "Wysłałeś 10 Kudos."
+  },
+  "gave-100-kudos": {
+    "title": "100 przyznanych Kudos",
+    "description": "Wysłałeś 100 Kudos."
+  },
+  "gave-1000-kudos": {
+    "title": "1000 przyznanych Kudos",
+    "description": "Wysłałeś aż 1000 Kudos."
+  },
+  "got-1-kudos": {
+    "title": "Pierwsze otrzymane Kudos",
+    "description": "Otrzymałeś swoje pierwsze Kudos."
+  },
+  "got-10-kudos": {
+    "title": "10 otrzymanych Kudos",
+    "description": "Otrzymałeś 10 Kudos."
+  },
+  "got-100-kudos": {
+    "title": "100 otrzymanych Kudos",
+    "description": "Otrzymałeś 100 Kudos."
+  },
+  "got-1000-kudos": {
+    "title": "1000 otrzymanych Kudos",
+    "description": "Otrzymałeś 1000 Kudos."
+  },
+  "hero": {
+    "title": "Bohater openSUSE",
+    "description": "Bohater społeczności openSUSE."
+  },
+  "kalpa": {
+    "title": "Współtwórca Kalpa",
+    "description": "Uznanie jako współtwórca Kalpa."
+  },
+  "leap-150": {
+    "title": "Współtwórca Leap 15.0",
+    "description": "Uznanie jako współtwórca Leap 15.0."
+  },
+  "leap-151": {
+    "title": "Współtwórca Leap 15.1",
+    "description": "Uznanie jako współtwórca Leap 15.1."
+  },
+  "leap-152": {
+    "title": "Współtwórca Leap 15.2",
+    "description": "Uznanie jako współtwórca Leap 15.2."
+  },
+  "leap-153": {
+    "title": "Współtwórca Leap 15.3",
+    "description": "Uznanie jako współtwórca Leap 15.3."
+  },
+  "leap-154": {
+    "title": "Współtwórca Leap 15.4",
+    "description": "Uznanie jako współtwórca Leap 15.4."
+  },
+  "leap-155": {
+    "title": "Współtwórca Leap 15.5",
+    "description": "Uznanie jako współtwórca Leap 15.5."
+  },
+  "leap-156": {
+    "title": "Współtwórca Leap 15.6",
+    "description": "Uznanie jako współtwórca Leap 15.6."
+  },
+  "leap-160": {
+    "title": "Współtwórca Leap 16.0",
+    "description": "Uznanie jako współtwórca Leap 16.0."
+  },
+  "leap-161": {
+    "title": "Współtwórca Leap 16.1",
+    "description": "Uznanie jako współtwórca Leap 16.1."
+  },
+  "localization": {
+    "title": "Guru lokalizacji",
+    "description": "Uznanie za tłumaczenia openSUSE."
+  },
+  "marketing": {
+    "title": "Specjalista marketingu",
+    "description": "Aktywny specjalista marketingu."
+  },
+  "member": {
+    "title": "Członek openSUSE",
+    "description": "Tylko dla oficjalnych członków"
+  },
+  "microos": {
+    "title": "Współtwórca MicroOS",
+    "description": "Uznanie jako współtwórca MicroOS."
+  },
+  "moderation": {
+    "title": "Moderator",
+    "description": "Uznanie za moderację na forach i w mediach społecznościowych."
+  },
+  "nuked": {
+    "title": "Zniszczona produkcja",
+    "description": "Nikt tej odznaki naprawdę nie chce. Ale wygląda świetnie."
+  },
+  "packager": {
+    "title": "Pakieter openSUSE",
+    "description": "Pakieter openSUSE."
+  },
+  "power": {
+    "title": "openSUSE POWER",
+    "description": "Za wkład w openSUSE na platformie POWER"
+  },
+  "quality": {
+    "title": "Zapewnienie jakości",
+    "description": "Uznanie za pracę w QA."
+  },
+  "slowroll": {
+    "title": "Współtwórca Slowroll",
+    "description": "Uznanie jako współtwórca Slowroll."
+  },
+  "social": {
+    "title": "Influencer",
+    "description": "Influencer w mediach społecznościowych."
+  },
+  "systemz": {
+    "title": "openSUSE SYSTEM-Z",
+    "description": "Za wkład w openSUSE na platformie SYSTEM-Z"
+  },
+  "tumbleweed-1": {
+    "title": "First Tumbleweed Contribution",
+    "description": "For submitting 1 Submit Request to openSUSE:Factory."
+  },
+  "tumbleweed-10": {
+    "title": "10 Tumbleweed Contributions",
+    "description": "For submitting 10 Submit Requests to openSUSE:Factory."
+  },
+  "tumbleweed-100": {
+    "title": "100 Tumbleweed Contributions",
+    "description": "For submitting 100 Submit Requests to openSUSE:Factory."
+  },
+  "tumbleweed-1000": {
+    "title": "1000 Tumbleweed Contributions",
+    "description": "For submitting 1000 Submit Requests to openSUSE:Factory."
+  },
+  "webdev": {
+    "title": "Web developer openSUSE",
+    "description": "Uznanie za rozwój usług webowych openSUSE."
+  },
+  "wiki-1": {
+    "title": "1 Wiki Contribution",
+    "description": "Recognition for 1 wiki contribution on en.opensuse.org wiki."
+  },
+  "wiki-10": {
+    "title": "10 Wiki Contributions",
+    "description": "Recognition for 10 wiki contributions on en.opensuse.org wiki."
+  },
+  "wiki-100": {
+    "title": "100 Wiki Contributions",
+    "description": "Recognition for 100 wiki contributions on en.opensuse.org wiki."
+  },
+  "wiki-1000": {
+    "title": "1000 Wiki Contributions",
+    "description": "Recognition for 1000 wiki contributions on en.opensuse.org wiki."
+  },
+  "wiki-100000": {
+    "title": "100000 Wiki Contributions",
+    "description": "Recognition for 100000 wiki contributions on en.opensuse.org wiki."
+  }
+}
