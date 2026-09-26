@@ -1,0 +1,186 @@
+{
+  "appliance": {
+    "title": "विशेष छवियाँ",
+    "description": "विशेष openSUSE छवियों में योगदान के लिए"
+  },
+  "arm": {
+    "title": "openSUSE Arm",
+    "description": "Arm पर openSUSE में योगदान के लिए"
+  },
+  "artwork": {
+    "title": "सच्चा कलाकार",
+    "description": "सच्चा openSUSE कलाकार।"
+  },
+  "booth": {
+    "title": "बूथ कर्मचारी",
+    "description": "openSUSE बूथ कर्मचारी सदस्य।"
+  },
+  "documentation": {
+    "title": "तकनीकी लेखक विशेषज्ञ",
+    "description": "openSUSE प्रलेखन पर काम के लिए मान्यता।"
+  },
+  "gave-1-kudos": {
+    "title": "पहला Kudos दिया गया",
+    "description": "आपने अपना पहला Kudos साझा किया।"
+  },
+  "gave-10-kudos": {
+    "title": "10 Kudos दिए गए",
+    "description": "आपने 10 Kudos साझा किए।"
+  },
+  "gave-100-kudos": {
+    "title": "100 Kudos दिए गए",
+    "description": "आपने 100 Kudos साझा किए।"
+  },
+  "gave-1000-kudos": {
+    "title": "1000 Kudos दिए गए",
+    "description": "आपने 1000 Kudos साझा किए।"
+  },
+  "got-1-kudos": {
+    "title": "पहला Kudo मिला",
+    "description": "आपको अपना पहला Kudos मिला।"
+  },
+  "got-10-kudos": {
+    "title": "10 Kudos मिले",
+    "description": "आपको 10 Kudos मिले।"
+  },
+  "got-100-kudos": {
+    "title": "100 Kudos मिले",
+    "description": "आपको 100 Kudos मिले।"
+  },
+  "got-1000-kudos": {
+    "title": "1000 Kudos मिले",
+    "description": "आपको 1000 Kudos मिले।"
+  },
+  "hero": {
+    "title": "openSUSE हीरो",
+    "description": "openSUSE हीरो"
+  },
+  "kalpa": {
+    "title": "Kalpa योगदानकर्ता",
+    "description": "Kalpa योगदानकर्ता के रूप में मान्यता।"
+  },
+  "leap-150": {
+    "title": "Leap 15.0 योगदानकर्ता",
+    "description": "Leap 15.0 योगदानकर्ता के रूप में मान्यता।"
+  },
+  "leap-151": {
+    "title": "Leap 15.1 योगदानकर्ता",
+    "description": "Leap 15.1 योगदानकर्ता के रूप में मान्यता।"
+  },
+  "leap-152": {
+    "title": "Leap 15.2 योगदानकर्ता",
+    "description": "Leap 15.2 योगदानकर्ता के रूप में मान्यता।"
+  },
+  "leap-153": {
+    "title": "Leap 15.3 योगदानकर्ता",
+    "description": "Leap 15.3 योगदानकर्ता के रूप में मान्यता।"
+  },
+  "leap-154": {
+    "title": "Leap 15.4 योगदानकर्ता",
+    "description": "Leap 15.4 योगदानकर्ता के रूप में मान्यता।"
+  },
+  "leap-155": {
+    "title": "Leap 15.5 योगदानकर्ता",
+    "description": "Leap 15.5 योगदानकर्ता के रूप में मान्यता।"
+  },
+  "leap-156": {
+    "title": "Leap 15.6 योगदानकर्ता",
+    "description": "Leap 15.6 योगदानकर्ता के रूप में मान्यता।"
+  },
+  "leap-160": {
+    "title": "Leap 16.0 योगदानकर्ता",
+    "description": "Leap 16.0 योगदानकर्ता के रूप में मान्यता।"
+  },
+  "leap-161": {
+    "title": "Leap 16.1 योगदानकर्ता",
+    "description": "Leap 16.1 योगदानकर्ता के रूप में मान्यता।"
+  },
+  "localization": {
+    "title": "स्थानीयकरण गुरु",
+    "description": "openSUSE अनुवादों के लिए मान्यता।"
+  },
+  "marketing": {
+    "title": "विपणन विशेषज्ञ",
+    "description": "सक्रिय विपणन विशेषज्ञ"
+  },
+  "member": {
+    "title": "openSUSE सदस्य",
+    "description": "केवल आधिकारिक सदस्यों के लिए"
+  },
+  "microos": {
+    "title": "MicroOS योगदानकर्ता",
+    "description": "MicroOS योगदानकर्ता के रूप में मान्यता।"
+  },
+  "moderation": {
+    "title": " मॉडरेटर",
+    "description": "मंचों और सोशल मीडिया पर मॉडरेशन के लिए मान्यता।"
+  },
+  "nuked": {
+    "title": "उत्पादन नष्ट हो गया",
+    "description": "कोई भी वास्तव में यह बैज नहीं चाहता है। लेकिन यह बहुत अच्छा लग रहा है।"
+  },
+  "packager": {
+    "title": "openSUSE Packager",
+    "description": "openSUSE Packager"
+  },
+  "power": {
+    "title": "openSUSE POWER",
+    "description": "POWER पर openSUSE में योगदान के लिए"
+  },
+  "quality": {
+    "title": "गुणवत्ता आश्वासन",
+    "description": "QA कार्य के लिए मान्यता।"
+  },
+  "slowroll": {
+    "title": "Slowroll योगदानकर्ता",
+    "description": "Slowroll योगदानकर्ता के रूप में मान्यता।"
+  },
+  "social": {
+    "title": "प्रभावశాలి",
+    "description": "सोशल मीडिया प्रभावశాలి।"
+  },
+  "systemz": {
+    "title": "openSUSE SYSTEM-Z",
+    "description": "SYSTEM-Z पर openSUSE में योगदान के लिए"
+  },
+  "tumbleweed-1": {
+    "title": "First Tumbleweed Contribution",
+    "description": "For submitting 1 Submit Request to openSUSE:Factory."
+  },
+  "tumbleweed-10": {
+    "title": "10 Tumbleweed Contributions",
+    "description": "For submitting 10 Submit Requests to openSUSE:Factory."
+  },
+  "tumbleweed-100": {
+    "title": "100 Tumbleweed Contributions",
+    "description": "For submitting 100 Submit Requests to openSUSE:Factory."
+  },
+  "tumbleweed-1000": {
+    "title": "1000 Tumbleweed Contributions",
+    "description": "For submitting 1000 Submit Requests to openSUSE:Factory."
+  },
+  "webdev": {
+    "title": "openSUSE वेब डेवलपर",
+    "description": "openSUSE वेब सेवाओं के विकास के लिए मान्यता।"
+  },
+  "wiki-1": {
+    "title": "1 Wiki Contribution",
+    "description": "Recognition for 1 wiki contribution on en.opensuse.org wiki."
+  },
+  "wiki-10": {
+    "title": "10 Wiki Contributions",
+    "description": "Recognition for 10 wiki contributions on en.opensuse.org wiki."
+  },
+  "wiki-100": {
+    "title": "100 Wiki Contributions",
+    "description": "Recognition for 100 wiki contributions on en.opensuse.org wiki."
+  },
+  "wiki-1000": {
+    "title": "1000 Wiki Contributions",
+    "description": "Recognition for 1000 wiki contributions on en.opensuse.org wiki."
+  },
+  "wiki-100000": {
+    "title": "100000 Wiki Contributions",
+    "description": "Recognition for 100000 wiki contributions on en.opensuse.org wiki."
+  }
+}
