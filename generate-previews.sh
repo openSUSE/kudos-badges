@@ -44,6 +44,13 @@ shopt -u nullglob
 
 [[ ${#PNGS[@]} -gt 0 ]] || die "No .png files found."
 
+# Scratch directory for previews being generated. Plain `mktemp -d` works with
+# GNU, BSD/macOS and BusyBox mktemp (`--suffix` is GNU-only), files inside keep
+# the .png name ImageMagick uses to pick the format, and the trap removes it
+# even when a conversion fails halfway.
+TMP_DIR="$(mktemp -d)"
+trap 'rm -rf "$TMP_DIR"' EXIT
+
 IN_GIT=0
 git rev-parse --is-inside-work-tree >/dev/null 2>&1 && IN_GIT=1
 
@@ -88,7 +95,7 @@ for size in "${SIZES[@]}"; do
       continue
     fi
 
-    tmp="$(mktemp --suffix=.png)"
+    tmp="${TMP_DIR}/${base}"
 
     echo "Generating ${img} → ${out} (${size}px)"
 
