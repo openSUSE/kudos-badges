@@ -103,6 +103,14 @@ Check your work with `node scripts/check-badges.mjs`; CI runs the same check
 on every pull request. Every top-level `.png` must have metadata, so keep
 artwork that isn't a badge yet out of the top-level directory.
 
+On pull requests, CI also runs the check with `--base` against the target
+branch and fails if a badge that exists there was removed or renamed (its
+`meta/<slug>.json` is gone). To run the same check locally:
+
+```bash
+node scripts/check-badges.mjs --base origin/main
+```
+
 Once merged, the `kudos-badges` package is rebuilt and installed, and Kudos
 picks the badge up on its own: it syncs these badges into its database every
 time it starts.

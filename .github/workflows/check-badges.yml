@@ -13,4 +13,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/check-badges.mjs
+      - name: Check badges
+        if: github.event_name != 'pull_request'
+        run: node scripts/check-badges.mjs
+      # Pull requests are also checked against their target branch, so that
+      # no existing badge is removed or renamed.
+      - name: Check badges against the target branch
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git fetch --no-tags --depth=1 origin "+refs/heads/${BASE_REF}:refs/remotes/origin/${BASE_REF}"
+          node scripts/check-badges.mjs --base "origin/${BASE_REF}"

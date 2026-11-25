@@ -9,9 +9,13 @@
 //   - every meta file is valid and points at an existing image and previews
 //   - every badge has an English title and description in locales/en.json
 //   - translations only carry title/description for badges that exist
+//   - with --base <ref>: no badge that exists in <ref> has been removed, since
+//     badges are never revoked (Kudos retires a badge whose meta file is gone)
 //
-// Usage: node scripts/check-badges.mjs   (run from anywhere; no dependencies)
+// Usage: node scripts/check-badges.mjs [--base <git-ref>]
+//        (run from anywhere; no dependencies besides git for --base)
 
+import { execFileSync } from "child_process";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -21,6 +25,23 @@ const PREVIEW_SIZES = [200, 800];
 const SLUG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const META_KEYS = new Set(["image", "link", "retired"]);
 const STRING_KEYS = new Set(["title", "description"]);
+
+function usage(message) {
+  console.error(`${message}\nUsage: node scripts/check-badges.mjs [--base <git-ref>]`);
+  process.exit(2);
+}
+
+let baseRef;
+const args = process.argv.slice(2);
+while (args.length) {
+  const arg = args.shift();
+  if (arg === "--base" || arg.startsWith("--base=")) {
+    baseRef = arg === "--base" ? args.shift() : arg.slice("--base=".length);
+    if (!baseRef) usage("--base needs a git ref, e.g. --base origin/main");
+  } else {
+    usage(`unknown argument "${arg}"`);
+  }
+}
 
 const errors = [];
 function error(file, message) {
@@ -81,6 +102,32 @@ for (const file of metaFiles) {
   }
   if ("retired" in meta && typeof meta.retired !== "boolean") {
     error(rel, `"retired" must be true or false`);
+  }
+}
+
+// ── badges are never removed ────────────────────────────────────────────────
+// Compare against the meta files in baseRef (e.g. the PR's target branch).
+// The slug is a badge's permanent ID and Kudos retires every badge whose meta
+// file is gone: deleting one hides it from the badge list, and renaming one
+// leaves its holders on the retired old slug while the new one has nobody.
+if (baseRef !== undefined) {
+  let baseFiles;
+  try {
+    baseFiles = execFileSync("git", ["ls-tree", "--name-only", baseRef, "--", "meta/"], {
+      cwd: ROOT,
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "pipe"],
+    });
+  } catch (err) {
+    const reason = err.stderr?.toString().trim() || err.message;
+    console.error(`cannot list meta/ in "${baseRef}": ${reason}`);
+    process.exit(2);
+  }
+  for (const rel of baseFiles.split("\n").filter((f) => f.endsWith(".json"))) {
+    const slug = path.posix.basename(rel, ".json");
+    if (!exists(rel)) {
+      error(rel, `badge "${slug}" exists in ${baseRef} but its meta file is gone; badges are never removed or renamed, keep the file and set "retired": true to hide it`);
+    }
   }
 }
 
